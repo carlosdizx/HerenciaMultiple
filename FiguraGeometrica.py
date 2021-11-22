@@ -20,4 +20,4 @@ class FiguraGeometrica:
         self._alto = alto
 
     def __str__(self):
-        return f'Alto:{self._alto}, Ancho:{self._ancho}'
+        return f'FiguraGeometrica[Alto:{self._alto}, Ancho:{self._ancho }]'
