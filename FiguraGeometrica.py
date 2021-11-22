@@ -19,3 +19,5 @@ class FiguraGeometrica:
     def alto(self, alto):
         self._alto = alto
 
+    def __str__(self):
+        return f'Alto:{self._alto}, Ancho:{self._ancho}'
